@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Word API</title>
+</head>
+
+<body>
+  <h1>Word API</h1>
+  <dl>
+    <dt>GET <i>/words</i></dt>
+    <dd>A list of words</dd>
+    <dt>POST <i>/words</i></dt>
+    <dd>Create a word from <code>{ origWord: 'Some word', translWord: 'Some translate' }</code></dd>
+    <dt>PATCH <i>/words/:wordId</i></dt>
+    <dd>Changes given values in a word <code>{ origWord: 'New word' }</code></dd>
+    <dt>DELETE <i>/words/:wordId</i></dt>
+    <dd>Removes a word</dd>
+  </dl>
+</body>
+
+</html>
